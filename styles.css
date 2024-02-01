@@ -1,0 +1,33 @@
+body{
+    height: 100vh;
+    width: 100vh;
+}
+
+
+.header { 
+    background:#1f2937;
+
+}
+
+.logo {
+    display: flex;
+    color: #F9FAF8;
+    font-size: 24px ;
+}
+
+.first-section { 
+    display: flex;
+}
+
+.header {
+    display: flex;
+    padding: 16px;
+}
+
+.header-right-links { 
+    display: flex;
+}
+
+a { 
+    text-decoration: none;
+}
