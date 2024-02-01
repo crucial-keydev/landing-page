@@ -8,6 +8,7 @@
     display: flex;
     color: #F9FAF8;
     font-size: 24px ;
+    margin-bottom: 48px;
 }
 
 .header {
@@ -29,3 +30,25 @@ ul {
     padding: 0;
     gap: 16px
   }
+
+  .first-section{
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+  }
+
+.intro {
+    display: flex;
+}
+
+.container-one { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#this-website {
+    color: #F9FAF8;
+    font-size: 50px;
+}
