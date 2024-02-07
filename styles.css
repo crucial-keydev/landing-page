@@ -101,3 +101,63 @@ a:hover, a:active { text-decoration: none; color:black }
     border-radius: 10px;
     
 }
+
+.second-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 100px 200px;
+}
+
+.second-section-header{ 
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+    
+
+.second-section-contents {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.info {
+    display: flex;
+    flex-direction: column ;
+    gap:10px;
+    width: 150px;
+}
+
+.info-img {
+    width:150px;
+    height:150px;
+
+}
+
+
+.third-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 100px 400px;
+    justify-content: center;
+}
+
+.qoute {
+    width: 900px;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic  ;
+    color: #1f2837;
+}
+
+.author {
+    font-size: 30px;
+    color: #1f2837;
+    align-self: flex-end;
+    font-weight: bold ;
+}
