@@ -20,6 +20,7 @@
     display: flex;
     justify-content: space-between;
     margin: 0 200px;
+    padding: 25px 0px;
 }
 
 .header-right-links {
@@ -91,7 +92,7 @@ a:hover, a:active { text-decoration: none; color:black }
 
 }
 
-#sign-up {
+.sign-up {
     font-size: 18px;
     color: #e5e7eb;
     background-color: #3882f6;
@@ -99,6 +100,7 @@ a:hover, a:active { text-decoration: none; color:black }
     width: 150px;
     font-weight: bold;
     border-radius: 10px;
+    border-color: white;
     
 }
 
@@ -143,12 +145,14 @@ a:hover, a:active { text-decoration: none; color:black }
     display: flex;
     flex-direction: column;
     background-color: #e5e7eb;
-    padding: 100px 400px;
+    padding: 100px 350px;
+    gap: 25px;
     justify-content: center;
+    
 }
 
 .qoute {
-    width: 900px;
+    width: 825px;
     font-size: 36px;
     font-weight: light;
     font-style: italic  ;
@@ -161,3 +165,34 @@ a:hover, a:active { text-decoration: none; color:black }
     align-self: flex-end;
     font-weight: bold ;
 }
+
+
+.fourth-section {
+    padding: 100px 200px
+}
+.container-three { 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 50px 50px;
+    border-radius: 5px;
+}
+
+.call-to-action-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+}
+
+.call-to-action { 
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.call-to-action-text {
+    font-size: 20px;
+    color: #1f2937;
+}
+
