@@ -196,3 +196,20 @@ a:hover, a:active { text-decoration: none; color:black }
     color: #1f2937;
 }
 
+.footer { 
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 50px;
+    align-self:  flex-end;
+    
+
+}
+
+.footer-text { 
+    font-size: 18px;
+    color: #f9faf8;
+    
+}
+
